@@ -9,8 +9,8 @@ srcdir="$PWD"
 install_dependencies() {
     # Manually install Node.js 12 since the version provided in some Ubuntu distros
     # is older than 10.13.0 which prettier requires.
-    curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
-    sudo dnf check-update
+    #curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
+    #sudo dnf check-update
     sudo dnf install p7zip p7zip-plugins ImageMagick nodejs wget g++ make patch
     sudo npm install -g electron@^6 --unsafe-perm=true
     sudo npm install -g --engine-strict asar
