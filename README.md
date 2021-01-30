@@ -25,7 +25,7 @@ The Deezer Windows installer will then be downloaded, extracted and patched to w
 
 ## Known issues
 
-- Tray icon does not appear on Gnome 3.38 using Kstatusnotifieritem/appindicator and legacy tray icons capable extensions.
+- Tray icon does not appear on Gnome 3.38 using Kstatusnotifieritem/appindicator support extension.
 
 ## Debugging
 
