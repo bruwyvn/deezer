@@ -1,0 +1,12 @@
+# Deezer Desktop sources
+locales/
+resources/
+*.pak
+*.exe
+*.dll
+*.dat
+*.bin
+*.7z
+LICENSE.electron.txt
+vk_swiftshader_icd.json
+LICENSES.chromium.html
